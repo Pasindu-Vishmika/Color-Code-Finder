@@ -14,7 +14,7 @@ This Python script extracts both RGB and HEX color codes from images. It support
 1. Clone the repository to your local machine:
 
     ```bash
-    git clone https://github.com/your-username/image-color-extractor.git
+    git clone https://github.com/Pasindu-Vishmika/image-color-extractor.git
     ```
 
 2. Install the necessary dependencies, such as PIL (Python Imaging Library). You can install dependencies using pip:
@@ -22,17 +22,16 @@ This Python script extracts both RGB and HEX color codes from images. It support
     ```bash
     pip install pillow
     ```
-3. Add your image to `img_location` directory 
+3. Add your image to `img_location` directory
 
-4. Run the Python script, providing the path to the image you want to analyze. Replace `your_image_name.extention` with the actual path to your image:
+4. Update code line number 22 with `your_image_name.extention` .
 
-    ```bash
-    python color_code_extractor.py your_image_name.extention
-    ```
-
-5. The script will process the image and output the RGB and HEX color codes of the first pixel.
+   ## Usage Example
+   `image_name = "your_image_name.extention"` -> `image_name = "111.png"`
+   
+6. The script will process the image and output the RGB and HEX color codes of the first pixel.
 
 ## Usage Example
 
 ```bash
-python color_code_extractor.py 111.png
+python color_code_extractor.py 
